@@ -13,10 +13,12 @@
 <body>
     <header>
         <h1 class="fw-bold text-center pt-5">HOME</h1>
-        <h3 class="fw-bold text-center">Laravel primi passi</h3>
+        <h3 class="fw-bold text-center">{{ $title }}</h3>
     </header>
     <main>
-        {{ $homeList }}
+        <div class="container">
+
+        </div>
     </main>
 </body>
 </html>
