@@ -12,7 +12,8 @@
 </head>
 <body>
     <header>
-        <h1>CIAO</h1>
+        <h1 class="fw-bold text-center pt-5">HOME</h1>
+        <h3 class="fw-bold text-center">Laravel primi passi</h3>
     </header>
     <main>
 
