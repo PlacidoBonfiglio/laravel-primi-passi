@@ -13,14 +13,14 @@
 <body>
     <header>
         <h1 class="fw-bold text-center pt-5">HOME</h1>
-        <h3 class="fw-bold text-center">{{ $title }}</h3>
+        <h3 class="fw-bold text-center pb-5">{{ $title }}</h3>
     </header>
     <main>
         <div class="container">
-            <div class="row">
+            <div class="row row-cols-4">
 
                 @foreach ( $homeList as $listItem )
-                    <div class="col">
+                    <div class="col text-center mb-5">
                         {{ $listItem }}
                     </div>
                 @endforeach
