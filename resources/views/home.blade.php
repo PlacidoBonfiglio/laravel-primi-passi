@@ -17,7 +17,14 @@
     </header>
     <main>
         <div class="container">
+            <div class="row">
 
+                @foreach ( $homeList as $listItem )
+                    <div class="col">
+                        {{ $listItem }}
+                    </div>
+                @endforeach
+            </div>
         </div>
     </main>
 </body>
