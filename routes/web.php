@@ -30,7 +30,8 @@ Route::get('/home', function () {
 
     return view('home',
     [
-        "homeList" => $list
+        // Prendo la lista creata appena sopra e la rinomino
+        "homeList" => $list,
     ]
 );
 });

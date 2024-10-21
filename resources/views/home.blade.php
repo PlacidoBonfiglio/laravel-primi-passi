@@ -16,7 +16,7 @@
         <h3 class="fw-bold text-center">Laravel primi passi</h3>
     </header>
     <main>
-
+        {{ $homeList }}
     </main>
 </body>
 </html>
