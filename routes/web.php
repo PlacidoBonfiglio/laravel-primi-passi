@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 // Creo una route che mi porti a visualizzare "home.blade.php"
-Route::get('/home', function () {
+Route::get('/', function () {
 
     $title = "Laravel primi passi";
     // Creo una lista che andrò a chiamare dinamicamente su "home.blade.php"
